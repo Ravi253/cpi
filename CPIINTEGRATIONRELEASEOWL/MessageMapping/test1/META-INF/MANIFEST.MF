@@ -1,8 +1,10 @@
 Manifest-Version: 1.0
+Provide-Capability: messagemapping.test1;version:Version="1.0.0"
 Bundle-SymbolicName: test1
+Bundle-Name: test1
+Bundle-Version: 1.0.4
 Bundle-ManifestVersion: 2
-Origin-Bundle-SymbolicName: test1
-Origin-Bundle-Version: 1.0.4
+SAP-NodeType: IFLMAP
 Import-Package: com.sap.esb.security,javax.jms,javax.jws,javax.wsdl,ja
  vax.xml.bind.annotation,javax.xml.namespace,javax.xml.ws,org.apache.c
  ommons.logging,org.osgi.framework;version="1.6.0",org.slf4j;version="
@@ -14,12 +16,6 @@ Import-Package: com.sap.esb.security,javax.jms,javax.jws,javax.wsdl,ja
  tf3.rt,com.sap.aii.mappingtool.tf3,com.sap.aii.mappingtool.flib7,com.
  sap.aii.mappingtool.flib3,com.sap.aii.mapping.api,com.sap.aii.ib.bom.
  flib.types,com.sap.xi.mapping.camel
-Origin-Bundle-Name: test1
-Provide-Capability: messagemapping.test1;version:Version="1.0.0"
-Bundle-Name: test1
-Bundle-Version: 1.0.4
-SAP-NodeType: IFLMAP
-Origin-ModifiedDate: 1669118387240
 SAP-BundleType: MessageMapping
 Import-Service: 
 
