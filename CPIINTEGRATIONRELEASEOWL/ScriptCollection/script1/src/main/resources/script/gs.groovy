@@ -17,7 +17,7 @@ def Message processData(Message message) {
     //Properties
     def properties = message.getProperties();
     value = properties.get("oldProperty");
-    message.setProperty("oldProperty", value + " modified1");
-    message.setProperty("newProperty", "newProperty4");
+    message.setProperty("oldProperty", value + " modified");
+    message.setProperty("newProperty", "newProperty");
     return message;
 }
